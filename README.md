@@ -9,92 +9,82 @@ Selamat datang di repository ini — repositori ini dibuat sebagai bagian dari s
 🎯 Tujuan Proyek
 Tujuan utama dari proyek ini adalah:
 
--Memahami konsep green finance dari sisi data termasuk bagaimana data digunakan untuk mengukur dampak dan risiko proyek berkelanjutan.
--Melihat analisis green finance berdampak terhadap lingkungan dan sosial yang terukur, dengan fokus pada metrik kunci seperti pengurangan emisi CO2, penciptaan lapangan kerja, dan peningkatan akses energi bersih.
--Mengeksplorasi bagaimana kita dapat menggunakan data historis untuk memprediksi keberhasilan dan risiko proyek hijau, termasuk penerapan teknik Machine Learning sederhana.
--Membedah berbagai variabel dalam dataset yang relevan, mulai dari data finansial, lingkungan, hingga sosial-ekonomi, dan memahami interkoneksinya dalam konteks keberlanjutan.
+ - Memahami konsep green finance dari sisi data termasuk bagaimana data digunakan untuk mengukur dampak dan risiko proyek berkelanjutan.
+ - Melihat analisis green finance berdampak terhadap lingkungan dan sosial yang terukur, dengan fokus pada metrik kunci seperti pengurangan emisi CO2, penciptaan lapangan kerja, dan peningkatan akses energi bersih.
+ - Mengeksplorasi bagaimana kita dapat menggunakan data historis untuk memprediksi keberhasilan dan risiko proyek hijau, termasuk penerapan teknik Machine Learning sederhana.
+ - Membedah berbagai variabel dalam dataset yang relevan, mulai dari data finansial, lingkungan, hingga sosial-ekonomi, dan memahami interkoneksinya dalam konteks keberlanjutan.
 
-1. Deskripsi Green Finance
-Green Finance adalah pendekatan keuangan yang inovatif yang mengarahkan investasi dan pembiayaan ke proyek-proyek yang memiliki dampak positif dan terukur terhadap lingkungan. Fokus utamanya adalah mendukung transisi global menuju ekonomi rendah karbon dan berkelanjutan. Ini mencakup pembiayaan untuk berbagai inisiatif, antara lain:
+# 1. Deskripsi Green Finance
 
-Energi Terbarukan: Investasi pada pembangkit listrik tenaga surya (PLTS), pembangkit listrik tenaga mikrohidro (PLTM), angin, panas bumi, dan biomassa.
+**Green Finance** adalah pendekatan keuangan yang inovatif yang mengarahkan investasi dan pembiayaan ke proyek-proyek yang memiliki dampak positif dan terukur terhadap lingkungan. Fokus utamanya adalah mendukung transisi global menuju ekonomi rendah karbon dan berkelanjutan. Ini mencakup pembiayaan untuk berbagai inisiatif, antara lain:
 
-Pengelolaan Limbah Berkelanjutan: Proyek-proyek yang berfokus pada daur ulang, pengolahan limbah, dan pengurangan sampah.
+- Energi Terbarukan: Investasi pada pembangkit listrik tenaga surya (PLTS), pembangkit listrik tenaga mikrohidro (PLTM), angin, panas bumi, dan biomassa.
 
-Transportasi Ramah Lingkungan: Pengembangan infrastruktur dan kendaraan listrik, transportasi publik rendah emisi, dan jalur sepeda.
+- Pengelolaan Limbah Berkelanjutan: Proyek-proyek yang berfokus pada daur ulang, pengolahan limbah, dan pengurangan sampah.
 
-Efisiensi Energi: Peningkatan efisiensi di sektor industri, bangunan, dan rumah tangga.
+- Transportasi Ramah Lingkungan: Pengembangan infrastruktur dan kendaraan listrik, transportasi publik rendah emisi, dan jalur sepeda.
 
-Adaptasi dan Mitigasi Perubahan Iklim: Proyek yang membantu komunitas beradaptasi dengan dampak perubahan iklim atau mengurangi emisi gas rumah kaca.
+- Efisiensi Energi: Peningkatan efisiensi di sektor industri, bangunan, dan rumah tangga.
 
-Komponen Utama Green Finance:
+- Adaptasi dan Mitigasi Perubahan Iklim: Proyek yang membantu komunitas beradaptasi dengan dampak perubahan iklim atau mengurangi emisi gas rumah kaca.
 
-Investasi Hijau: Ini merujuk pada proyek-proyek konkret yang dirancang untuk memberikan dampak lingkungan positif, seperti mengurangi emisi, menghemat energi, mengelola sumber daya secara berkelanjutan, atau mengkonservasi keanekaragaman hayati.
+# Komponen Utama Green Finance:
 
-Instrumen Keuangan Hijau: Meliputi berbagai produk dan layanan keuangan yang dirancang khusus untuk memfasilitasi investasi hijau:
+**Investasi Hijau:** Ini merujuk pada proyek-proyek konkret yang dirancang untuk memberikan dampak lingkungan positif, seperti mengurangi emisi, menghemat energi, mengelola sumber daya secara berkelanjutan, atau mengkonservasi keanekaragaman hayati.
 
-Green Bond: Obligasi yang penerbitannya secara spesifik untuk membiayai proyek-proyek hijau.
+**Instrumen Keuangan Hijau:** Meliputi berbagai produk dan layanan keuangan yang dirancang khusus untuk memfasilitasi investasi hijau:
 
-Green Loan: Pinjaman yang ditujukan untuk proyek dengan manfaat lingkungan.
+**Green Bond:** Obligasi yang penerbitannya secara spesifik untuk membiayai proyek-proyek hijau.
 
+**Green Loan:** Pinjaman yang ditujukan untuk proyek dengan manfaat lingkungan.
 ESG Fund (Environmental, Social, Governance Fund): Dana investasi yang memilih aset berdasarkan kriteria lingkungan, sosial, dan tata kelola perusahaan yang baik.
 
-Manfaat Green Finance:
+# Manfaat Green Finance:
+**Pengurangan Risiko Jangka Panjang:** Membantu memitigasi risiko finansial dan operasional yang timbul dari perubahan iklim dan degradasi lingkungan.
 
-Pengurangan Risiko Jangka Panjang: Membantu memitigasi risiko finansial dan operasional yang timbul dari perubahan iklim dan degradasi lingkungan.
+**Peningkatan Transparansi Lingkungan:** Mendorong sektor keuangan untuk lebih transparan dalam pelaporan dampak lingkungan dari investasi mereka.
 
-Peningkatan Transparansi Lingkungan: Mendorong sektor keuangan untuk lebih transparan dalam pelaporan dampak lingkungan dari investasi mereka.
+**Insentif Investor dan Penerbit:** Memberikan daya tarik bagi investor yang peduli lingkungan, seringkali melalui kondisi yang lebih menguntungkan (misalnya greenium, yaitu selisih imbal hasil yang lebih rendah pada green bond dibandingkan obligasi konvensional, menunjukkan permintaan yang tinggi).
 
-Insentif Investor dan Penerbit: Memberikan daya tarik bagi investor yang peduli lingkungan, seringkali melalui kondisi yang lebih menguntungkan (misalnya greenium, yaitu selisih imbal hasil yang lebih rendah pada green bond dibandingkan obligasi konvensional, menunjukkan permintaan yang tinggi).
-
-⚖️ Regulasi Green Finance di Indonesia
+# ⚖️ Regulasi Green Finance di Indonesia
 Indonesia telah menunjukkan komitmen kuat terhadap keberlanjutan melalui pengembangan kerangka regulasi Green Finance yang progresif. Regulasi ini menjadi landasan bagi lembaga keuangan dan pelaku usaha untuk berinvestasi pada proyek-proyek hijau:
 
-Taksonomi Hijau Indonesia (THI) – OJK 2022:
+**1. Taksonomi Hijau Indonesia (THI) – OJK 2022:**
 
-Merupakan sistem klasifikasi komprehensif yang dikembangkan oleh Otoritas Jasa Keuangan (OJK) untuk menilai apakah sebuah kegiatan ekonomi tergolong "hijau" atau berkelanjutan.
+- Merupakan sistem klasifikasi komprehensif yang dikembangkan oleh Otoritas Jasa Keuangan (OJK) untuk menilai apakah sebuah kegiatan ekonomi tergolong "hijau" atau berkelanjutan.
 
-THI menetapkan kriteria teknis dan sektor prioritas yang jelas, memberikan panduan bagi investor dan lembaga keuangan dalam mengidentifikasi dan membiayai proyek yang benar-benar memberikan manfaat lingkungan.
+- THI menetapkan kriteria teknis dan sektor prioritas yang jelas, memberikan panduan bagi investor dan lembaga keuangan dalam mengidentifikasi dan membiayai proyek yang benar-benar memberikan manfaat lingkungan.
 
-POJK No. 60/POJK.04/2017 tentang Penerbitan dan Persyaratan Efek Bersifat Utang dan Sukuk Berlandaskan Prinsip Syariah (Green Bond):
+**2. POJK No. 60/POJK.04/2017 tentang Penerbitan dan Persyaratan Efek Bersifat Utang dan Sukuk Berlandaskan Prinsip Syariah (Green Bond):**
 
-Peraturan ini secara khusus mengatur penerbitan Green Bond di Indonesia.
+- Peraturan ini secara khusus mengatur penerbitan Green Bond di Indonesia.
 
-Mencakup ketentuan mengenai pelaporan dampak lingkungan dari proyek yang dibiayai oleh Green Bond, serta penilaian kelayakan proyek hijau untuk memastikan integritas dan akuntabilitas.
+- Mencakup ketentuan mengenai pelaporan dampak lingkungan dari proyek yang dibiayai oleh Green Bond, serta penilaian kelayakan proyek hijau untuk memastikan integritas dan akuntabilitas.
 
-POJK No. 51/POJK.03/2017 tentang Penerapan Keuangan Berkelanjutan bagi Lembaga Jasa Keuangan, Emiten, dan Perusahaan Publik:
+**3. POJK No. 51/POJK.03/2017 tentang Penerapan Keuangan Berkelanjutan bagi Lembaga Jasa Keuangan, Emiten, dan Perusahaan Publik:**
 
-Mewajibkan lembaga keuangan untuk menyusun Rencana Aksi Keuangan Berkelanjutan (RAKB).
+- Mewajibkan lembaga keuangan untuk menyusun Rencana Aksi Keuangan Berkelanjutan (RAKB).
 
-Mendorong penilaian portofolio berdasarkan prinsip keberlanjutan, termasuk analisis Green Net Present Value (GNPV) dan dampak lingkungan, sosial, dan tata kelola (ESG), yang mendorong integrasi faktor-faktor non-finansial dalam pengambilan keputusan investasi.
+- Mendorong penilaian portofolio berdasarkan prinsip keberlanjutan, termasuk analisis Green Net Present Value (GNPV) dan dampak lingkungan, sosial, dan tata kelola (ESG), yang mendorong integrasi faktor-faktor non-finansial dalam pengambilan keputusan investasi.
 
-2. Analisis Field Dataset
+# 2. Analisis Field Dataset
 Bagian ini akan menjelaskan setiap dataset yang digunakan dalam analisis, beserta rumus dan temuan kunci dari setiap pertanyaan tugas. Kode Python yang digunakan untuk menghasilkan analisis juga akan disertakan.
 
-2.1 Financial Dataset
+**2.1 Financial Dataset**
 Dataset ini krusial untuk menganalisis kelayakan ekonomi dan risiko finansial dari setiap proyek. Ini berisi informasi langsung terkait investasi dan pembiayaan.
 
-📊 Struktur Dataset
+**📊 Struktur Dataset**
+---
+|Nama Field|Deskripsi Singkat|
 
-Nama Field
+|Investment_Cost|Total dana yang diinvestasikan dalam proyek (dalam miliar rupiah). Ini adalah skala finansial proyek.|
 
-Deskripsi Singkat
+|Loan_Interest_Rate|Suku bunga tahunan (%) yang diterapkan pada pinjaman proyek, memengaruhi biaya modal.|
 
-Investment_Cost
+|Default_Risk_Score|Skor risiko gagal bayar (0–100), menunjukkan probabilitas proyek tidak dapat memenuhi kewajiban finansialnya.|
 
-Total dana yang diinvestasikan dalam proyek (dalam miliar rupiah). Ini adalah skala finansial proyek.
-
-Loan_Interest_Rate
-
-Suku bunga tahunan (%) yang diterapkan pada pinjaman proyek, memengaruhi biaya modal.
-
-Default_Risk_Score
-
-Skor risiko gagal bayar (0–100), menunjukkan probabilitas proyek tidak dapat memenuhi kewajiban finansialnya.
-
-Green_Bond_Spread
-
-Selisih imbal hasil (dalam basis poin, bps) antara green bond proyek ini dan obligasi biasa, mencerminkan greenium atau diskon/premium hijau.
+|Green_Bond_Spread|Selisih imbal hasil (dalam basis poin, bps) antara green bond proyek ini dan obligasi biasa, mencerminkan greenium atau diskon/premium hijau.|
+---
 
 
 Ekspor ke Spreadsheet
