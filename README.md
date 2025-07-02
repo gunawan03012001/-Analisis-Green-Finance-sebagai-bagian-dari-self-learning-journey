@@ -108,6 +108,8 @@ t
  −I 
 0
 ​
+
+​
  
 Keterangan:
 
