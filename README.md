@@ -76,18 +76,14 @@ Dataset ini krusial untuk menganalisis kelayakan ekonomi dan risiko finansial da
 **📊 Struktur Dataset**
 ---
 |Nama Field|Deskripsi Singkat|
-
+|---|---|
 |Investment_Cost|Total dana yang diinvestasikan dalam proyek (dalam miliar rupiah). Ini adalah skala finansial proyek.|
-
 |Loan_Interest_Rate|Suku bunga tahunan (%) yang diterapkan pada pinjaman proyek, memengaruhi biaya modal.|
-
 |Default_Risk_Score|Skor risiko gagal bayar (0–100), menunjukkan probabilitas proyek tidak dapat memenuhi kewajiban finansialnya.|
-
 |Green_Bond_Spread|Selisih imbal hasil (dalam basis poin, bps) antara green bond proyek ini dan obligasi biasa, mencerminkan greenium atau diskon/premium hijau.|
 ---
 
 
-Ekspor ke Spreadsheet
 📐 Rumus Green Net Present Value (GNPV)
 
 GNPV adalah metrik penting yang memperhitungkan tidak hanya arus kas finansial, tetapi juga nilai moneter dari eksternalitas lingkungan (misalnya, penghematan karbon).
